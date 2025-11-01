@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NutriMatch — Home</title>
+  <link rel="stylesheet" href="style.css" />
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">NutriMatch</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="ai.html" class="nav-link">AI Nutrition</a>
+        <a href="foodint.html" class="nav-link">Food Intelligence</a>
+        <a href="healtthtrack.html" class="nav-link">Health Tracking</a>
+        <a href="contact.html" class="nav-link btn-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-home" aria-label="Hero">
+      <div class="hero-inner container">
+        <h1>AI-Powered Nutrition Intelligence</h1>
+        <p class="lead">Personalized meal suggestions, smart swaps and recipe analysis — made creative.</p>
+        <div class="hero-ctas">
+          <a class="btn" href="ai.html">Explore AI Nutrition</a>
+          <a class="btn ghost" href="foodint.html">Discover Food Intelligence</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container features-preview" id="features-preview">
+      <h2>Featured Modules</h2>
+      <div class="grid-3">
+        <article class="card">
+          <img src="ai-calorie-tracker-photo-food-journal-goldi-2.jpg" alt="AI Nutrition" />
+          <h3>AI Nutrition</h3>
+          <p>Advanced meal matching and macro-aware recipes using AI models.</p>
+          <a class="small-link" href="ai.html">Open Feature →</a>
+        </article>
+
+        <article class="card">
+          <img src="1_9sjPnug06-SEDKvUxuSUHg.jpg" alt="Food Intelligence" />
+          <h3>Food Intelligence</h3>
+          <p>Ingredient swaps, allergy-aware recommendations and sustainability hints.</p>
+          <a class="small-link" href="foodint.html">Open Feature →</a>
+        </article>
+
+        <article class="card">
+          <img src="istockphoto-2155532154-612x612.jpg" alt="Health Tracking" />
+          <h3>Health Tracking</h3>
+          <p>Track macros, calories and trends to stay on target with visual insights.</p>
+          <a class="small-link" href="healtthtrack.html">Open Feature →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container about-preview">
+      <div class="stack">
+        <h2>Why NutriMatch?</h2>
+        <p class="lead">We combine nutritional science with user preferences and local ingredient intelligence to deliver meal plans that taste good and work for your life.</p>
+        <a class="btn" href="contact.html">Get in touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>NutriMatch</strong><br/>
+          AI-driven meals & smarter grocery lists
+        </div>
+        <div>
+          <strong>Contact</strong><br/>
+          hello@nutrimatch.example
+        </div>
+        <div>
+          <strong>Follow</strong><br/>
+          Instagram • Twitter • LinkedIn
+        </div>
+      </div>
+      <p class="muted">© <span id="yr"></span> NutriMatch. Designed by Sahil</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
