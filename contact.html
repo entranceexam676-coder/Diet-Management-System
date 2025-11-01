@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NutriMatch — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">NutriMatch</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="ai-nutrition.html" class="nav-link">AI Nutrition</a>
+        <a href="food-intelligence.html" class="nav-link">Food Intelligence</a>
+        <a href="health-tracking.html" class="nav-link">Health Tracking</a>
+        <a href="contact.html" class="nav-link active btn-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-feature" style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80')">
+      <div class="hero-inner container">
+        <h1>Contact Us</h1>
+        <p class="lead">Questions or collaboration ideas? Let’s chat.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="grid-2">
+        <form class="card" id="contactForm" onsubmit="return submitContact(event)">
+          <h2>Send a message</h2>
+          <label>Full name<input id="name" required /></label>
+          <label>Email<input id="email" type="email" required /></label>
+          <label>Message<textarea id="message" rows="5" required></textarea></label>
+          <button class="btn" type="submit">Send</button>
+          <p id="contactStatus" class="muted" aria-live="polite"></p>
+        </form>
+
+        <div class="card">
+          <h2>Other ways</h2>
+          <p>Email: hello@nutrimatch.example</p>
+          <p>Phone: +91 98765 43210</p>
+          <p>Address: Pune, India</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="muted">© <span id="yr5"></span> NutriMatch</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
